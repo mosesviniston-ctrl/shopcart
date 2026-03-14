@@ -58,3 +58,4 @@ This is a full-stack e-commerce project built using React, Node.js, Express, MyS
 - **Tailwind CSS v4**: Utilized the Vite plugin architecture for zero-config global CSS styling.
 - **Context API**: Managed Cart and Auth states using React Context avoiding Redux overhead for a clean implementation.
 "# onlineshopping" 
+"# onlineshopping" 
