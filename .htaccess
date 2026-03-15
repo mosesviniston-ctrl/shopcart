@@ -1,0 +1,13 @@
+// Source - https://stackoverflow.com/a/58442124
+// Posted by rudi Ladeon, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-03-15, License - CC BY-SA 4.0
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /subdirectory
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /index.html [L]
+</IfModule>
